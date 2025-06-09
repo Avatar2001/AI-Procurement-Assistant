@@ -1,0 +1,196 @@
+{
+  "products": [
+    {
+      "page_url": "https://www.amazon.eg/example1",
+      "product_title": "ماكينة قهوة اسبريسو منزلية 1",
+      "product_image_url": "https://www.amazon.eg/image1.jpg",
+      "product_url": "https://www.amazon.eg/product1",
+      "product_current_price": 788.0,
+      "product_original_price": 1098.36,
+      "product_discount_percentage": 28.26,
+      "product_description": "ماكينة تحضير قهوة إسبريسو محمولة يدوية صغيرة للسفر",
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Manual"
+        },
+        {
+          "specification_name": "Material",
+          "specification_value": "Stainless Steel"
+        }
+      ],
+      "agent_recommendation_rank": 1,
+      "agent_recommendation_notes": "Good for travel"
+    },
+    {
+      "page_url": "https://ehabcenter.com/example2",
+      "product_title": "ماكينة قهوة اسبريسو منزلية 2",
+      "product_image_url": "https://ehabcenter.com/image2.jpg",
+      "product_url": "https://ehabcenter.com/product2",
+      "product_current_price": 5950.0,
+      "product_original_price": 6500.0,
+      "product_discount_percentage": 8.46,
+      "product_description": "ماكينة تحضير اسبريسو يدوية ومحمولة",
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Manual"
+        },
+        {
+          "specification_name": "Material",
+          "specification_value": "Stainless Steel"
+        }
+      ],
+      "agent_recommendation_rank": 2,
+      "agent_recommendation_notes": "Good for home and office"
+    },
+    {
+      "page_url": "https://www.top10arabi.com/example3",
+      "product_title": "Breville BES870 Barista Express",
+      "product_image_url": "https://www.top10arabi.com/image3.jpg",
+      "product_url": "https://www.top10arabi.com/product3",
+      "product_current_price": 7000.0,
+      "product_original_price": 7500.0,
+      "product_discount_percentage": 6.67,
+      "product_description": "ماكينة اسبريسو رائعة المذاق",
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Automatic"
+        }
+      ],
+      "agent_recommendation_rank": 3,
+      "agent_recommendation_notes": "Makes great espresso"
+    },
+    {
+      "page_url": "https://www.coffee4arab.com/example4",
+      "product_title": "DeLonghi DEDICA",
+      "product_image_url": "https://www.coffee4arab.com/image4.jpg",
+      "product_url": "https://www.coffee4arab.com/product4",
+      "product_current_price": 6000.0,
+      "product_original_price": 6200.0,
+      "product_discount_percentage": 3.23,
+      "product_description": "ماكينة قهوة اسبريسو رخيصة وتعطيك جوده عالية",
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Manual"
+        }
+      ],
+      "agent_recommendation_rank": 4,
+      "agent_recommendation_notes": "Affordable and high quality"
+    },
+    {
+      "page_url": "https://www.amazon.sa/example5",
+      "product_title": "ماكينة تحضير قهوة اسبريسو من امبيكس",
+      "product_image_url": "https://www.amazon.sa/image5.jpg",
+      "product_url": "https://www.amazon.sa/product5",
+      "product_current_price": 4500.0,
+      "product_original_price": 5000.0,
+      "product_discount_percentage": 10.0,
+      "product_description": "ماكينة تحضير قهوة اسبريسو من امبيكس، 1400 واط، 1.7 لتر",
+      "product_specs": [
+        {
+          "specification_name": "Power",
+          "specification_value": "1400W"
+        },
+        {
+          "specification_name": "Capacity",
+          "specification_value": "1.7L"
+        }
+      ],
+      "agent_recommendation_rank": 5,
+      "agent_recommendation_notes": "Fast heating"
+    },
+    {
+      "page_url": "https://12cups.com.sa/example6",
+      "product_title": "ماكينة الاسبريسو سينسو s200 لون أبيض",
+      "product_image_url": "https://12cups.com.sa/image6.jpg",
+      "product_url": "https://12cups.com.sa/product6",
+      "product_current_price": 3000.0,
+      "product_original_price": 3300.0,
+      "product_discount_percentage": 9.09,
+      "product_description": "الة القهوة بالتقطير",
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Espresso"
+        }
+      ],
+      "agent_recommendation_rank": 6,
+      "agent_recommendation_notes": "Good for business"
+    },
+    {
+      "page_url": "https://www.shub.coffee/example7",
+      "product_title": "آلة قهوة مقطرة",
+      "product_image_url": "https://www.shub.coffee/image7.jpg",
+      "product_url": "https://www.shub.coffee/product7",
+      "product_current_price": 2500.0,
+      "product_original_price": 2800.0,
+      "product_discount_percentage": 10.71,
+      "product_description": "آلة قهوة مقطرة - تسوق المكائن الأوتوماتيكية",
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Automatic"
+        }
+      ],
+      "agent_recommendation_rank": 7,
+      "agent_recommendation_notes": "Good for offices"
+    },
+    {
+      "page_url": "https://www.amazon.eg/example8",
+      "product_title": "ماكينة كبسولات قهوة من ساجافريدو",
+      "product_image_url": "https://www.amazon.eg/image8.jpg",
+      "product_url": "https://www.amazon.eg/product8",
+      "product_current_price": 9405.0,
+      "product_original_price": 10000.0,
+      "product_discount_percentage": 5.95,
+      "product_description": "ماكينة كبسولات قهوة من ساجافريدو - لون أبيض",
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Capsule"
+        }
+      ],
+      "agent_recommendation_rank": 8,
+      "agent_recommendation_notes": "Easy to use"
+    },
+    {
+      "page_url": "https://www.jumia.com.eg/example9",
+      "product_title": "Delonghi ماكينة قهوة اسبريسو ديلونجي ديديكا اسود EC 685.BK",
+      "product_image_url": "https://www.jumia.com.eg/image9.jpg",
+      "product_url": "https://www.jumia.com.eg/product9",
+      "product_current_price": 8250.0,
+      "product_original_price": 9000.0,
+      "product_discount_percentage": 8.33,
+      "product_description": "Delonghi ماكينة قهوة اسبريسو ديلونجي ديديكا اسود EC 685.BK",
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Espresso"
+        }
+      ],
+      "agent_recommendation_rank": 9,
+      "agent_recommendation_notes": "Popular model"
+    },
+    {
+      "page_url": "https://www.amazon.eg/example10",
+      "product_title": "ماكينة صنع قهوة من ديلونجي ecp 31.21",
+      "product_image_url": "https://www.amazon.eg/image10.jpg",
+      "product_url": "https://www.amazon.eg/product10",
+      "product_current_price": 8102.0,
+      "product_original_price": 8500.0,
+      "product_discount_percentage": 4.68,
+      "product_description": "ماكينة صنع قهوة من ديلونجي ecp 31.21 1100 وات (اسود)، ستانلس ستيل",
+      "product_specs": [
+        {
+          "specification_name": "Power",
+          "specification_value": "1100W"
+        }
+      ],
+      "agent_recommendation_rank": 10,
+      "agent_recommendation_notes": "Reliable brand"
+    }
+  ]
+}

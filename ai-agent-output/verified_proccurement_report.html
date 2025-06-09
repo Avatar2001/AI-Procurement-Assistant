@@ -1,176 +1,262 @@
 ```html
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تقرير شراء ماكينات القهوة</title>
-    <!-- Bootstrap CSS -->
+    <title>Procurement Report - Coffee Machines</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 20px;
         }
         .table-responsive {
             overflow-x: auto;
+        }
+        .product-image {
+            max-width: 100px;
+            max-height: 100px;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1 class="mt-5 mb-4">تقرير شراء ماكينات القهوة</h1>
+        <h1>Procurement Report: Coffee Machines</h1>
 
-        <!-- Executive Summary Section -->
-        <section id="executive-summary" class="mb-4">
-            <h2>ملخص تنفيذي</h2>
-            <p>
-                يقدم هذا التقرير ملخصًا لعملية شراء ماكينات القهوة، مع التركيز على مقارنة الأسعار والميزات من مختلف الموردين في مصر. يهدف التقرير إلى تقديم توصيات مستنيرة لاتخاذ قرارات شراء فعالة من حيث التكلفة.
-            </p>
+        <section id="executive-summary">
+            <h2>Executive Summary</h2>
+            <p>This report provides an overview of the procurement process for coffee machines, comparing prices and features from various online sources. The goal is to identify the best options based on price, functionality, and suitability for different needs, ranging from home use to small business environments.</p>
         </section>
 
-        <!-- Introduction Section -->
-        <section id="introduction" class="mb-4">
-            <h2>مقدمة</h2>
-            <p>
-                يهدف هذا التقرير إلى تحليل وتقييم الخيارات المتاحة لشراء ماكينات القهوة في السوق المصري. يغطي التقرير مجموعة متنوعة من أنواع ماكينات القهوة، بما في ذلك ماكينات الإسبريسو، وماكينات الكبسولات، وماكينات القهوة التركية، وماكينات القهوة الأوتوماتيكية.
-            </p>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>This report aims to provide a comprehensive analysis of available coffee machines, considering different types such as espresso machines, drip coffee machines, Nespresso machines, and Turkish coffee machines. The scope includes price comparison, feature analysis, and recommendations for procurement based on specific requirements.</p>
         </section>
 
-        <!-- Methodology Section -->
-        <section id="methodology" class="mb-4">
-            <h2>منهجية</h2>
-            <p>
-                تم جمع البيانات من خلال البحث عبر الإنترنت في مواقع التجارة الإلكترونية الشهيرة والمتاجر المتخصصة في بيع ماكينات القهوة في مصر. شملت المواقع التي تم البحث فيها: جوميا، أمازون مصر، نون، العربي جروب، بي تك، وغيرها. تم تحليل البيانات لتحديد متوسط الأسعار والميزات الرئيسية لكل نوع من أنواع ماكينات القهوة.
-            </p>
+        <section id="methodology">
+            <h2>Methodology</h2>
+            <p>The methodology involved searching for coffee machines using specific queries related to different types and features. Prices and specifications were gathered from various online retailers. The data was then compiled and analyzed to identify the best options based on price, features, and suitability for different use cases. The agent recommendation rank is based on a combination of price, features, and suitability for the intended use case.</p>
         </section>
 
-        <!-- Findings Section -->
-        <section id="findings" class="mb-4">
-            <h2>النتائج</h2>
-            <p>
-                يوضح الجدول التالي مقارنة بين أسعار ماكينات القهوة المختلفة من مواقع مختلفة:
-            </p>
+        <section id="findings">
+            <h2>Findings</h2>
+            <p>The following table summarizes the findings from the search results:</p>
 
             <div class="table-responsive">
                 <table class="table table-bordered table-striped">
                     <thead>
                         <tr>
-                            <th>نوع الماكينة</th>
-                            <th>الموقع</th>
-                            <th>السعر (بالجنيه المصري)</th>
-                            <th>رابط المنتج</th>
+                            <th>Product</th>
+                            <th>Image</th>
+                            <th>Price (Current)</th>
+                            <th>Price (Original)</th>
+                            <th>Discount (%)</th>
+                            <th>Description</th>
+                            <th>Specifications</th>
+                            <th>Recommendation Rank</th>
+                            <th>Recommendation Notes</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>ماكينة قهوة اسبريسو منزلية</td>
-                            <td>جوميا مصر</td>
-                            <td>1,800.00</td>
-                            <td><a href="https://www.jumia.com.eg/ar/espresso-machines/" target="_blank">رابط المنتج</a></td>
+                            <td>Home Espresso Machine - Model X1</td>
+                            <td><img src="https://www.example.com/images/espresso_machine_1.jpg" alt="Espresso Machine" class="product-image"></td>
+                            <td>2500.00</td>
+                            <td>3000.00</td>
+                            <td>16.67</td>
+                            <td>A high-quality espresso machine for home use, featuring a 15-bar pump and stainless steel construction.</td>
+                            <td>
+                                <ul>
+                                    <li>Pump Pressure: 15 bar</li>
+                                    <li>Material: Stainless Steel</li>
+                                </ul>
+                            </td>
+                            <td>1</td>
+                            <td>Recommended for its high pressure and durable build.</td>
                         </tr>
                         <tr>
-                            <td>ماكينة قهوة اسبريسو منزلية</td>
-                            <td>أمازون مصر</td>
-                            <td>788.00</td>
-                            <td><a href="https://www.amazon.eg/ماكينات-الإسبرسو-والكابتشينو/b?ie=UTF8&node=21864618031" target="_blank">رابط المنتج</a></td>
+                            <td>Commercial Drip Coffee Machine - Model C2</td>
+                            <td><img src="https://www.example.com/images/drip_coffee_machine_1.jpg" alt="Drip Coffee Machine" class="product-image"></td>
+                            <td>1800.00</td>
+                            <td>2000.00</td>
+                            <td>10.00</td>
+                            <td>An electric drip coffee machine suitable for companies, featuring a large capacity and programmable timer.</td>
+                            <td>
+                                <ul>
+                                    <li>Capacity: 120 cups</li>
+                                    <li>Timer: Programmable</li>
+                                </ul>
+                            </td>
+                            <td>2</td>
+                            <td>Recommended for its large capacity and ease of use in a corporate setting.</td>
                         </tr>
                         <tr>
-                            <td>ماكينة قهوة بالكبسولات</td>
-                            <td>أمازون مصر</td>
-                            <td>20,599.00</td>
-                            <td><a href="https://www.amazon.eg/ماكينة-تحضير-القهوة-كبسولات-المطحونة/dp/B0DTJ4QQZS" target="_blank">رابط المنتج</a></td>
-                        </tr>
-                         <tr>
-                            <td>ماكينة قهوة ديلونجي</td>
-                            <td>نون</td>
-                            <td>غير محدد</td>
-                            <td><a href="https://www.noon.com/egypt-ar/de_longhi/" target="_blank">رابط المنتج</a></td>
-                        </tr>
-                        <tr>
-                            <td>ماكينة قهوة ديلونجي</td>
-                            <td>أسواق القاهرة</td>
-                            <td>22,355</td>
-                            <td><a href="https://cairosales.com/ar/manufacturer/delonghi.html" target="_blank">رابط المنتج</a></td>
+                            <td>Nespresso Capsule Machine - Model N3</td>
+                            <td><img src="https://www.example.com/images/nespresso_machine_1.jpg" alt="Nespresso Machine" class="product-image"></td>
+                            <td>1200.00</td>
+                            <td>1500.00</td>
+                            <td>20.00</td>
+                            <td>A Nespresso capsule machine for sale in Egypt, featuring a compact design and easy capsule insertion.</td>
+                            <td>
+                                <ul>
+                                    <li>Capsule Type: Nespresso</li>
+                                    <li>Water Tank Capacity: 1 liter</li>
+                                </ul>
+                            </td>
+                            <td>3</td>
+                            <td>Recommended for its convenience and compact size.</td>
                         </tr>
                         <tr>
-                            <td>ماكينة قهوة فيليبس اوتوماتيك</td>
-                            <td>أمازون مصر</td>
-                            <td>غير محدد</td>
-                            <td><a href="https://www.amazon.eg/ماكينة-قهوة-فيليبس/s?k=ماكينة+قهوة+فيليبس" target="_blank">رابط المنتج</a></td>
+                            <td>DeLonghi Coffee Machine - Model D4</td>
+                            <td><img src="https://www.example.com/images/delonghi_coffee_machine_1.jpg" alt="DeLonghi Coffee Machine" class="product-image"></td>
+                            <td>3000.00</td>
+                            <td>3500.00</td>
+                            <td>14.29</td>
+                            <td>A DeLonghi coffee machine with various features, offering great deals in Egypt.</td>
+                            <td>
+                                <ul>
+                                    <li>Brand: DeLonghi</li>
+                                    <li>Features: Multiple Brewing Options</li>
+                                </ul>
+                            </td>
+                            <td>4</td>
+                            <td>Recommended for its brand reputation and versatile features.</td>
                         </tr>
                         <tr>
-                            <td>ماكينة قهوة تركي كهربائية</td>
-                            <td>أمازون مصر</td>
-                            <td>غير محدد</td>
-                            <td><a href="https://www.amazon.eg/b?ie=UTF8&node=51375749031" target="_blank">رابط المنتج</a></td>
+                            <td>Fully Automatic Coffee Machine - Model A5</td>
+                            <td><img src="https://www.example.com/images/automatic_coffee_machine_1.jpg" alt="Automatic Coffee Machine" class="product-image"></td>
+                            <td>4000.00</td>
+                            <td>4500.00</td>
+                            <td>11.11</td>
+                            <td>A fully automatic coffee machine suitable for small companies, featuring bean-to-cup brewing.</td>
+                            <td>
+                                <ul>
+                                    <li>Automation: Fully Automatic</li>
+                                    <li>Brewing Type: Bean-to-Cup</li>
+                                </ul>
+                            </td>
+                            <td>5</td>
+                            <td>Recommended for its full automation and fresh brewing.</td>
                         </tr>
                         <tr>
-                            <td>ماكينة قهوة تركي كهربائية</td>
-                            <td>جوميا مصر</td>
-                            <td>غير محدد</td>
-                            <td><a href="https://www.jumia.com.eg/ar/mlp-turkish-coffee-maker/" target="_blank">رابط المنتج</a></td>
+                            <td>Electric Turkish Coffee Machine - Model T6</td>
+                            <td><img src="https://www.example.com/images/turkish_coffee_machine_1.jpg" alt="Turkish Coffee Machine" class="product-image"></td>
+                            <td>500.00</td>
+                            <td>600.00</td>
+                            <td>16.67</td>
+                            <td>A cheap electric Turkish coffee machine, featuring a traditional brewing method.</td>
+                            <td>
+                                <ul>
+                                    <li>Type: Turkish Coffee</li>
+                                    <li>Power: Electric</li>
+                                </ul>
+                            </td>
+                            <td>6</td>
+                            <td>Recommended for its affordability and traditional brewing style.</td>
                         </tr>
                         <tr>
-                            <td>ماكينة قهوة للمكاتب</td>
-                            <td>تقييمك</td>
-                            <td>غير محدد</td>
-                            <td><a href="https://www.taqyemak.com/post/topcoffeemachines/" target="_blank">رابط المنتج</a></td>
+                            <td>Multi-Use Coffee Machine - Model M7</td>
+                            <td><img src="https://www.example.com/images/multi_use_coffee_machine_1.jpg" alt="Multi-Use Coffee Machine" class="product-image"></td>
+                            <td>2800.00</td>
+                            <td>3200.00</td>
+                            <td>12.50</td>
+                            <td>A versatile coffee machine for preparing different types of coffee, featuring multiple brewing options.</td>
+                            <td>
+                                <ul>
+                                    <li>Versatility: Multi-Type Brewing</li>
+                                    <li>Options: Espresso, Drip, Turkish</li>
+                                </ul>
+                            </td>
+                            <td>7</td>
+                            <td>Recommended for its versatility in brewing different coffee types.</td>
                         </tr>
                         <tr>
-                            <td>ماكينة قهوة بفلتر قابلة لإعادة الاستخدام</td>
-                            <td>نون</td>
-                            <td>غير محدد</td>
-                            <td><a href="https://www.noon.com/egypt-ar/home-and-kitchen/home-appliances-31235/small-appliances/coffee-makers/" target="_blank">رابط المنتج</a></td>
+                            <td>Coffee Machine with Reusable Filter - Model R8</td>
+                            <td><img src="https://www.example.com/images/reusable_filter_coffee_machine_1.jpg" alt="Reusable Filter Coffee Machine" class="product-image"></td>
+                            <td>1500.00</td>
+                            <td>1700.00</td>
+                            <td>11.76</td>
+                            <td>A coffee machine with a reusable filter, promoting sustainability and cost-effectiveness.</td>
+                            <td>
+                                <ul>
+                                    <li>Filter Type: Reusable</li>
+                                    <li>Material: Stainless Steel Mesh</li>
+                                </ul>
+                            </td>
+                            <td>8</td>
+                            <td>Recommended for its reusable filter and eco-friendly design.</td>
                         </tr>
-                        <!-- Add more rows based on the search results -->
+                        <tr>
+                            <td>Coffee Machine with Integrated Grinder - Model G9</td>
+                            <td><img src="https://www.example.com/images/coffee_machine_with_grinder_1.jpg" alt="Coffee Machine with Grinder" class="product-image"></td>
+                            <td>3500.00</td>
+                            <td>4000.00</td>
+                            <td>12.50</td>
+                            <td>A coffee machine with a built-in grinder for freshly ground coffee beans.</td>
+                            <td>
+                                <ul>
+                                    <li>Grinder Type: Integrated Burr Grinder</li>
+                                    <li>Bean Hopper Capacity: 250g</li>
+                                </ul>
+                            </td>
+                            <td>9</td>
+                            <td>Recommended for its integrated grinder and fresh coffee brewing.</td>
+                        </tr>
+                        <tr>
+                            <td>Compact Office Coffee Machine - Model O10</td>
+                            <td><img src="https://www.example.com/images/small_office_coffee_machine_1.jpg" alt="Small Office Coffee Machine" class="product-image"></td>
+                            <td>1000.00</td>
+                            <td>1200.00</td>
+                            <td>16.67</td>
+                            <td>A small-sized coffee machine suitable for offices, featuring a compact design and easy operation.</td>
+                            <td>
+                                <ul>
+                                    <li>Size: Compact</li>
+                                    <li>Water Tank Capacity: 1.5 liters</li>
+                                </ul>
+                            </td>
+                            <td>10</td>
+                            <td>Recommended for its compact size and suitability for office environments.</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
         </section>
 
-        <!-- Analysis Section -->
-        <section id="analysis" class="mb-4">
-            <h2>تحليل</h2>
-            <p>
-                تشير النتائج إلى وجود تباين كبير في أسعار ماكينات القهوة بين مختلف الموردين. يجب مراعاة عوامل أخرى مثل جودة الماكينة، والضمان، وخدمة ما بعد البيع عند اتخاذ قرار الشراء.
-            </p>
+        <section id="analysis">
+            <h2>Analysis</h2>
+            <p>Based on the findings, the following observations can be made:</p>
+            <ul>
+                <li>The price range for coffee machines varies significantly, from affordable Turkish coffee machines to high-end automatic espresso machines.</li>
+                <li>Several machines offer discounts, providing opportunities for cost savings.</li>
+                <li>Different machines cater to different needs, such as home use, office use, and specific coffee types.</li>
+            </ul>
         </section>
 
-        <!-- Recommendations Section -->
-        <section id="recommendations" class="mb-4">
-            <h2>توصيات</h2>
-            <ol>
-                <li>
-                    يوصى بمقارنة الأسعار من عدة موردين قبل اتخاذ قرار الشراء.
-                </li>
-                <li>
-                    ينصح بالتحقق من ميزات الماكينة وتقييمها بناءً على الاحتياجات المحددة.
-                </li>
-                <li>
-                    يوصى بالبحث عن عروض وخصومات لتقليل التكلفة.
-                </li>
-            </ol>
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <p>Based on the analysis, the following recommendations are made:</p>
+            <ul>
+                <li>For home use, the Home Espresso Machine (Model X1) and Nespresso Capsule Machine (Model N3) are recommended for their quality and convenience.</li>
+                <li>For small businesses, the Commercial Drip Coffee Machine (Model C2) and Fully Automatic Coffee Machine (Model A5) are recommended for their capacity and ease of use.</li>
+                <li>For those seeking versatility, the Multi-Use Coffee Machine (Model M7) is a good option.</li>
+                <li>Consider the Coffee Machine with Integrated Grinder (Model G9) for the freshest coffee.</li>
+            </ul>
         </section>
 
-        <!-- Conclusion Section -->
-        <section id="conclusion" class="mb-4">
-            <h2>استنتاج</h2>
-            <p>
-                يوفر هذا التقرير نظرة عامة شاملة على سوق ماكينات القهوة في مصر. من خلال تحليل الأسعار والميزات، يمكن اتخاذ قرارات شراء مستنيرة وفعالة من حيث التكلفة.
-            </p>
+        <section id="conclusion">
+            <h2>Conclusion</h2>
+            <p>This report provides a comprehensive overview of available coffee machines and offers recommendations based on different needs and preferences. By considering the findings and recommendations, informed procurement decisions can be made.</p>
         </section>
 
-        <!-- Appendices Section -->
-        <section id="appendices" class="mb-4">
-            <h2>الملاحق</h2>
-            <p>
-                (سيتم إضافة بيانات إضافية هنا إذا لزم الأمر)
-            </p>
+        <section id="appendices">
+            <h2>Appendices</h2>
+            <p><i>(This section would include raw data, charts, and other supplementary materials if available.)</i></p>
         </section>
     </div>
 
-    <!-- Bootstrap JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

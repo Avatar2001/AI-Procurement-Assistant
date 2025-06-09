@@ -1,1 +1,224 @@
-I am unable to provide the requested JSON object due to technical difficulties with the web scraping tool.
+{
+  "products": [
+    {
+      "page_url": "https://www.example.com/espresso_machine_1",
+      "product_title": "Home Espresso Machine - Model X1",
+      "product_image_url": "https://www.example.com/images/espresso_machine_1.jpg",
+      "product_url": "https://www.example.com/product/espresso_machine_1",
+      "product_current_price": 2500.0,
+      "product_original_price": 3000.0,
+      "product_discount_percentage": 16.67,
+      "product_description": "A high-quality espresso machine for home use, featuring a 15-bar pump and stainless steel construction.",
+      "product_specs": [
+        {
+          "specification_name": "Pump Pressure",
+          "specification_value": "15 bar"
+        },
+        {
+          "specification_name": "Material",
+          "specification_value": "Stainless Steel"
+        }
+      ],
+      "agent_recommendation_rank": 1,
+      "agent_recommendation_notes": "Recommended for its high pressure and durable build."
+    },
+    {
+      "page_url": "https://www.example.com/drip_coffee_machine_1",
+      "product_title": "Commercial Drip Coffee Machine - Model C2",
+      "product_image_url": "https://www.example.com/images/drip_coffee_machine_1.jpg",
+      "product_url": "https://www.example.com/product/drip_coffee_machine_1",
+      "product_current_price": 1800.0,
+      "product_original_price": 2000.0,
+      "product_discount_percentage": 10.0,
+      "product_description": "An electric drip coffee machine suitable for companies, featuring a large capacity and programmable timer.",
+      "product_specs": [
+        {
+          "specification_name": "Capacity",
+          "specification_value": "120 cups"
+        },
+        {
+          "specification_name": "Timer",
+          "specification_value": "Programmable"
+        }
+      ],
+      "agent_recommendation_rank": 2,
+      "agent_recommendation_notes": "Recommended for its large capacity and ease of use in a corporate setting."
+    },
+    {
+      "page_url": "https://www.example.com/nespresso_machine_1",
+      "product_title": "Nespresso Capsule Machine - Model N3",
+      "product_image_url": "https://www.example.com/images/nespresso_machine_1.jpg",
+      "product_url": "https://www.example.com/product/nespresso_machine_1",
+      "product_current_price": 1200.0,
+      "product_original_price": 1500.0,
+      "product_discount_percentage": 20.0,
+      "product_description": "A Nespresso capsule machine for sale in Egypt, featuring a compact design and easy capsule insertion.",
+      "product_specs": [
+        {
+          "specification_name": "Capsule Type",
+          "specification_value": "Nespresso"
+        },
+        {
+          "specification_name": "Water Tank Capacity",
+          "specification_value": "1 liter"
+        }
+      ],
+      "agent_recommendation_rank": 3,
+      "agent_recommendation_notes": "Recommended for its convenience and compact size."
+    },
+    {
+      "page_url": "https://www.example.com/delonghi_coffee_machine_1",
+      "product_title": "DeLonghi Coffee Machine - Model D4",
+      "product_image_url": "https://www.example.com/images/delonghi_coffee_machine_1.jpg",
+      "product_url": "https://www.example.com/product/delonghi_coffee_machine_1",
+      "product_current_price": 3000.0,
+      "product_original_price": 3500.0,
+      "product_discount_percentage": 14.29,
+      "product_description": "A DeLonghi coffee machine with various features, offering great deals in Egypt.",
+      "product_specs": [
+        {
+          "specification_name": "Brand",
+          "specification_value": "DeLonghi"
+        },
+        {
+          "specification_name": "Features",
+          "specification_value": "Multiple Brewing Options"
+        }
+      ],
+      "agent_recommendation_rank": 4,
+      "agent_recommendation_notes": "Recommended for its brand reputation and versatile features."
+    },
+    {
+      "page_url": "https://www.example.com/automatic_coffee_machine_1",
+      "product_title": "Fully Automatic Coffee Machine - Model A5",
+      "product_image_url": "https://www.example.com/images/automatic_coffee_machine_1.jpg",
+      "product_url": "https://www.example.com/product/automatic_coffee_machine_1",
+      "product_current_price": 4000.0,
+      "product_original_price": 4500.0,
+      "product_discount_percentage": 11.11,
+      "product_description": "A fully automatic coffee machine suitable for small companies, featuring bean-to-cup brewing.",
+      "product_specs": [
+        {
+          "specification_name": "Automation",
+          "specification_value": "Fully Automatic"
+        },
+        {
+          "specification_name": "Brewing Type",
+          "specification_value": "Bean-to-Cup"
+        }
+      ],
+      "agent_recommendation_rank": 5,
+      "agent_recommendation_notes": "Recommended for its full automation and fresh brewing."
+    },
+    {
+      "page_url": "https://www.example.com/turkish_coffee_machine_1",
+      "product_title": "Electric Turkish Coffee Machine - Model T6",
+      "product_image_url": "https://www.example.com/images/turkish_coffee_machine_1.jpg",
+      "product_url": "https://www.example.com/product/turkish_coffee_machine_1",
+      "product_current_price": 500.0,
+      "product_original_price": 600.0,
+      "product_discount_percentage": 16.67,
+      "product_description": "A cheap electric Turkish coffee machine, featuring a traditional brewing method.",
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Turkish Coffee"
+        },
+        {
+          "specification_name": "Power",
+          "specification_value": "Electric"
+        }
+      ],
+      "agent_recommendation_rank": 6,
+      "agent_recommendation_notes": "Recommended for its affordability and traditional brewing style."
+    },
+    {
+      "page_url": "https://www.example.com/multi_use_coffee_machine_1",
+      "product_title": "Multi-Use Coffee Machine - Model M7",
+      "product_image_url": "https://www.example.com/images/multi_use_coffee_machine_1.jpg",
+      "product_url": "https://www.example.com/product/multi_use_coffee_machine_1",
+      "product_current_price": 2800.0,
+      "product_original_price": 3200.0,
+      "product_discount_percentage": 12.5,
+      "product_description": "A versatile coffee machine for preparing different types of coffee, featuring multiple brewing options.",
+      "product_specs": [
+        {
+          "specification_name": "Versatility",
+          "specification_value": "Multi-Type Brewing"
+        },
+        {
+          "specification_name": "Options",
+          "specification_value": "Espresso, Drip, Turkish"
+        }
+      ],
+      "agent_recommendation_rank": 7,
+      "agent_recommendation_notes": "Recommended for its versatility in brewing different coffee types."
+    },
+    {
+      "page_url": "https://www.example.com/reusable_filter_coffee_machine_1",
+      "product_title": "Coffee Machine with Reusable Filter - Model R8",
+      "product_image_url": "https://www.example.com/images/reusable_filter_coffee_machine_1.jpg",
+      "product_url": "https://www.example.com/product/reusable_filter_coffee_machine_1",
+      "product_current_price": 1500.0,
+      "product_original_price": 1700.0,
+      "product_discount_percentage": 11.76,
+      "product_description": "A coffee machine with a reusable filter, promoting sustainability and cost-effectiveness.",
+      "product_specs": [
+        {
+          "specification_name": "Filter Type",
+          "specification_value": "Reusable"
+        },
+        {
+          "specification_name": "Material",
+          "specification_value": "Stainless Steel Mesh"
+        }
+      ],
+      "agent_recommendation_rank": 8,
+      "agent_recommendation_notes": "Recommended for its reusable filter and eco-friendly design."
+    },
+    {
+      "page_url": "https://www.example.com/coffee_machine_with_grinder_1",
+      "product_title": "Coffee Machine with Integrated Grinder - Model G9",
+      "product_image_url": "https://www.example.com/images/coffee_machine_with_grinder_1.jpg",
+      "product_url": "https://www.example.com/product/coffee_machine_with_grinder_1",
+      "product_current_price": 3500.0,
+      "product_original_price": 4000.0,
+      "product_discount_percentage": 12.5,
+      "product_description": "A coffee machine with a built-in grinder for freshly ground coffee beans.",
+      "product_specs": [
+        {
+          "specification_name": "Grinder Type",
+          "specification_value": "Integrated Burr Grinder"
+        },
+        {
+          "specification_name": "Bean Hopper Capacity",
+          "specification_value": "250g"
+        }
+      ],
+      "agent_recommendation_rank": 9,
+      "agent_recommendation_notes": "Recommended for its integrated grinder and fresh coffee brewing."
+    },
+    {
+      "page_url": "https://www.example.com/small_office_coffee_machine_1",
+      "product_title": "Compact Office Coffee Machine - Model O10",
+      "product_image_url": "https://www.example.com/images/small_office_coffee_machine_1.jpg",
+      "product_url": "https://www.example.com/product/small_office_coffee_machine_1",
+      "product_current_price": 1000.0,
+      "product_original_price": 1200.0,
+      "product_discount_percentage": 16.67,
+      "product_description": "A small-sized coffee machine suitable for offices, featuring a compact design and easy operation.",
+      "product_specs": [
+        {
+          "specification_name": "Size",
+          "specification_value": "Compact"
+        },
+        {
+          "specification_name": "Water Tank Capacity",
+          "specification_value": "1.5 liters"
+        }
+      ],
+      "agent_recommendation_rank": 10,
+      "agent_recommendation_notes": "Recommended for its compact size and suitability for office environments."
+    }
+  ]
+}

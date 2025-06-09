@@ -1,122 +1,137 @@
-# AI-Procurement-Assistant
-Awesome — let’s draft you a clean, clear, and engaging `README.md` for your AI Procurement Assistant project based on your repo and what you shared. Here’s a solid version you can drop right into your repo:
-
----
-
 # 🛒 AI Procurement Assistant
 
-A smart, multi-agent AI system designed to automate procurement research, price comparison, and report generation for businesses — saving time and optimizing purchasing decisions.
+An intelligent multi-agent AI system built with **CrewAI** to automate and streamline product procurement research from ecommerce platforms. This assistant scrapes product data, generates tailored search queries, evaluates results, and produces a polished, Bootstrap-based procurement report in HTML.
 
 ---
 
-## 📖 Overview
+## 📖 Project Overview
 
-**AI Procurement Assistant** is a Python-based AI multi-agent application powered by [CrewAI](https://github.com/joaomdmoura/crewAI) and state-of-the-art LLMs like Google's Gemini models via API.
-
-This system automatically:
-
-* Suggests relevant product search queries.
-* Searches the web for product offers.
-* Scrapes e-commerce websites for product details.
-* Generates a professional procurement report (in HTML with Bootstrap styling).
-* Verifies the report for completeness, accuracy, and UI best practices.
-
-It’s a complete end-to-end tool tailored for data-driven procurement.
+**AI Procurement Assistant** is designed to help procurement teams or companies identify the best products and deals from multiple ecommerce websites. By combining web scraping, search automation, and report generation — powered by language models and agent collaboration — the assistant ensures a fast, reliable, and professional procurement workflow.
 
 ---
 
-## 🚀 How It Works
+## 🚀 Features
 
-The application is composed of multiple AI agents, each assigned a specialized role:
-
-| Agent                                   | Responsibility                                                         |
-| :-------------------------------------- | :--------------------------------------------------------------------- |
-| **Search Queries Recommendation Agent** | Suggests varied, product-specific search queries.                      |
-| **Search Engine Agent**                 | Searches the web using Tavily API and collects relevant product links. |
-| **Web Scraping Agent**                  | Scrapes product details from the given URLs using ScrapeGraph.         |
-| **Procurement Report Author Agent**     | Generates a clean, structured HTML report with Bootstrap.              |
-| **Report Verifier Agent**               | Verifies report quality, structure, and completeness.                  |
-
----
-
-## 📝 Features
-
-✅ AI-driven query generation
-✅ Web search and scraping integration
-✅ Automated procurement reporting in HTML
-✅ Bootstrap-styled responsive design
-✅ Report quality verification
-✅ Environment-variable based API key management
+✅ Generate smart, product-specific search queries
+✅ Automatically search ecommerce platforms for product listings
+✅ Scrape product details including prices, images, and specifications
+✅ Evaluate and rank products based on configurable criteria
+✅ Generate a comprehensive, Bootstrap-styled HTML procurement report
+✅ Verify and annotate the final report for structure and quality
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Python 3.11+
-* CrewAI
-* Tavily API
-* ScrapeGraph
-* Google Gemini (via API)
-* LangChain
-* Bootstrap (for HTML reports)
-* Pydantic (for data modeling)
-* AgentOps (agent monitoring)
+* **Python**
+* **CrewAI** (Multi-agent orchestration)
+* **Gemini 2.0 Flash** (Google LLM)
+* **Tavily API** (Search engine tool)
+* **ScrapeGraph API** (Smart web scraping)
+* **Bootstrap** (for HTML report styling)
+* **Pydantic** (for data validation)
 
 ---
 
-## 📦 Installation
+## 📝 System Architecture
 
-1️⃣ Clone the repository:
+**Agents:**
 
-```bash
-git clone https://github.com/Avatar2001/AI-Procurement-Assistant.git
-cd AI-Procurement-Assistant
+* 📖 `Search Queries Agent`: Generates strategic, ecommerce-focused search queries.
+* 🔍 `Search Engine Agent`: Fetches ecommerce product pages for those queries.
+* 🛒 `Web Scraping Agent`: Scrapes product data like pricing, specifications, and images.
+* 📝 `Report Author Agent`: Compiles an HTML procurement report.
+* ✅ `Report Verifier Agent`: Verifies the report’s structure, Bootstrap compliance, and logical accuracy.
+
+**Tasks:**
+Each agent has a dedicated task handling input, processing, and output validations.
+
+**Knowledge Context:**
+Incorporates company-specific context (like strategy or target markets) to tailor queries and recommendations.
+
+---
+
+## 📂 Project Structure
+
 ```
-
-2️⃣ Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-3️⃣ Set up your `.env` file with the following keys:
-
-```env
-GOOGLE_API_KEY=your_google_gemini_api_key
-AGENTOPS_API_KEY=your_agentops_api_key
-TAVILY_API_KEY=your_tavily_api_key
-SCRAPEGRAPH_API_KEY=your_scrapegraph_api_key
+├── agents/
+│   └── (Agent definitions)
+├── context/
+│   └── company_context.py
+├── schemas/
+│   └── (Pydantic schemas)
+├── tasks/
+│   └── (Task definitions)
+├── tools/
+│   └── (Custom scraping and search tools)
+├── utils/
+│   └── llm_config.py
+├── ai_agent_output/
+│   └── (Generated reports and data)
+└── main.py
 ```
 
 ---
 
-## ▶️ How to Run
+## ⚙️ Installation & Setup
 
-Run the main script to start a procurement job:
+1. **Clone the repository:**
 
-```bash
-python crewaicolab.py
+   ```bash
+   git clone https://github.com/Avatar2001/AI-Procurement-Assistant.git
+   cd AI-Procurement-Assistant
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set environment variables:**
+
+   Create a `.env` file with:
+
+   ```
+   GOOGLE_API_KEY=your_google_api_key
+   TAVILY_API_KEY=your_tavily_api_key
+   SCRAPEGRAPH_API_KEY=your_scrapegraph_api_key
+   ```
+
+4. **Run the system:**
+
+   ```bash
+   python main.py
+   ```
+
+---
+
+## 📊 Example Use Case
+
+Procure a **coffee machine** for the office targeting ecommerce stores in **Egypt**, using **Arabic** keywords and collecting the **top 10 recommended products**.
+
+**Input parameters:**
+
+```python
+{
+  "product_name": "coffe machine for the office",
+  "websites_list": ["www.amazon.eg", "www.jumia.com.eg", "www.noon.com/egypt-en"],
+  "country_name": "Egypt",
+  "no_keywords": 10,
+  "language": "Arabic",
+  "score_threeshold": 0.10,
+  "top_recommendations_no": 10
+}
 ```
 
-You can customize the product name, websites list, country, language, and thresholds directly within the `run_procurement_crew()` function call.
-
 ---
 
-## 📊 Example Output
+## 📄 Output
 
-* `search_queries.json` – Suggested search queries
-* `search_results.json` – Collected product search results
-* `extracted_details.json` – Scraped product data
-* `proccurement_report.html` – Professional procurement report
-* `verified_proccurement_report.html` – Verified report with inline comments
-
----
-
-## 📬 Contact
-
-For any questions, ideas, or collaboration inquiries:
-
-**Mohamed Sherif**
-📧 [mohamedsherif21k@gmail.com](mailto:mohamedsherif21k@gmail.com)
+* **search\_queries.json**: Suggested ecommerce search queries
+* **search\_results.json**: Product links with confidence scores
+* **extracted\_details.json**: Detailed product info from scraped pages
+* **procurement\_report.html**: Clean, Bootstrap-based HTML report
+* **verified\_procurement\_report.html**: Verified, annotated final report
 
 

@@ -98,13 +98,7 @@ Incorporates company-specific context (like strategy or target markets) to tailo
    SCRAPEGRAPH_API_KEY=your_scrapegraph_api_key
    ```
 
-4. **Run the system:**
 
-   ```bash
-   python main.py
-   ```
-
----
 
 ## 📊 Example Use Case
 
